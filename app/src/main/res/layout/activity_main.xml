@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.onestay.tictactoe.MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/but1"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginEnd="3pt"
+            android:background="@android:color/darker_gray"
+            android:onClick="butClick" />
+
+        <Button
+            android:id="@+id/but2"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginEnd="3pt"
+            android:background="@android:color/darker_gray"
+            android:onClick="butClick" />
+
+        <Button
+            android:id="@+id/but3"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:background="@android:color/darker_gray"
+            android:onClick="butClick" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/but4"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginEnd="3pt"
+            android:layout_marginTop="3pt"
+            android:background="@android:color/darker_gray"
+            android:onClick="butClick" />
+
+        <Button
+            android:id="@+id/but5"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginEnd="3pt"
+            android:layout_marginTop="3pt"
+            android:background="@android:color/darker_gray"
+            android:onClick="butClick" />
+
+        <Button
+            android:id="@+id/but6"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginTop="3pt"
+            android:background="@android:color/darker_gray"
+            android:onClick="butClick" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/but7"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginEnd="3pt"
+            android:layout_marginTop="3pt"
+            android:background="@android:color/darker_gray"
+            android:onClick="butClick" />
+
+        <Button
+            android:id="@+id/but8"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginEnd="3pt"
+            android:layout_marginTop="3pt"
+            android:background="@android:color/darker_gray"
+            android:onClick="butClick" />
+
+        <Button
+            android:id="@+id/but9"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginTop="3pt"
+            android:background="@android:color/darker_gray"
+            android:onClick="butClick" />
+    </TableRow>
+</TableLayout>
